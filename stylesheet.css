@@ -3,11 +3,31 @@
   --secondary-color: rgb(0, 0, 0);
   --color-orange: #f29a38;
   --color-royalblue: #1400f5;
+
+     /* FONT SIZES */
+    --font-size-xxl: 2.8rem;
+    --font-size-xl: 1.8rem;
+    --font-size-l: 1.5rem;
+    --font-size-m: 1.2rem;
+    --font-size-s: 1rem;
+    --font-size-xs: 0.8rem;
 }
 
-@font-face { 
-   Roboto https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100..900;1,100..900
-   Barlow Condensed https://fonts.google.com/share?selection.family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900
-   Inter https://fonts.google.com/specimen/Inter?selection.family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&query=Inter
+    /* FONTS */
+@font-face {
+  font-family: "Roboto";
+  src: url(https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100..900;1,100..900);
+  font-weight: regular;
 }
 
+@font-face {
+  font-family: "Barlow condensed";
+  src: url(https://fonts.google.com/share?selection.family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900);
+  font-weight: Regular;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(https://fonts.google.com/specimen/Inter?selection.family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&query=Inter);
+  font-weight: ;
+}
