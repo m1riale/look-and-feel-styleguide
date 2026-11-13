@@ -1,8 +1,8 @@
 :root {
-  --color-white: rgb(255, 255, 255);
-  --color-black: rgb(0, 0, 0);
-  --color-orange: #f29a38;
-  --color-royalblue: #1400f5;
+  --color-primary-background: rgb(255, 255, 255);
+  --color-secondary-background: rgb(0, 0, 0);
+  --color-secondary: #f29a38;
+  --color-primary: #1400f5;
 
      /* FONT SIZES */
     --font-size-xxl: 2.8rem;
@@ -39,4 +39,22 @@
 }
 
 @media (min-width: 1000px) {
+}
+
+.primary-color{
+  background-color: var(--color-primary);
+  color: var(--color-primary-background);
+}
+
+.secondary-color{
+  background-color: var(--color-secondary);
+}
+
+.primary-background-color{
+  background-color: var(--color-primary-background);
+}
+
+.secondary-background-color{
+  background-color: var(--color-secondary-background);
+  color: var(--color-primary-background);
 }

@@ -50,34 +50,11 @@
     align-items: center;
     gap: 1rem;
     margin: 1rem 0;
-    > code.kleur1 {
+    > code  {
       display: grid;
       place-items: center;
       border-radius: 50%;
       aspect-ratio: 1;
-      background: var(--color-orange);
     }
-    > code.kleur2 {
-      display: grid;
-      place-items: center;
-      border-radius: 50%;
-      aspect-ratio: 1;
-      background: var(--color-royalblue);
-    }
-    > code.kleur3 {
-      display: grid;
-      place-items: center;
-      border-radius: 50%;
-      aspect-ratio: 1;
-      background: var(--color-white);
-    }
-    > code.kleur4 {
-      display: grid;
-      place-items: center;
-      border-radius: 50%;
-      aspect-ratio: 1;
-      background: var(--color-black);
     }
   }
-
-}
