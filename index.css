@@ -55,7 +55,14 @@
       place-items: center;
       border-radius: 50%;
       aspect-ratio: 1;
-      background: #ccc;
+      background: #f29a38;
+    }
+    > code {
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      aspect-ratio: 1;
+      background: #1400f5;
     }
   }
 
