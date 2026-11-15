@@ -41,6 +41,32 @@ h6 {
   font-size: 0.8rem;
 }
 
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+ul, ol {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+table {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+blockquote {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    border-left: 3px solid #f29a38;
+    padding-left: 1rem;
+    margin-left: 0;
+}
+
     /* Formulier elementen */
 
 }
