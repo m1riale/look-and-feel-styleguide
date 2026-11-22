@@ -68,5 +68,14 @@ blockquote {
 }
 
     /* Formulier elementen */
+input[type="checkbox"] {
+    accent-color: #0b4fd3;
+    width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer;
+}
 
+input[type="checkbox"]:focus-visible {
+    outline: 2px solid #0b4fd3;
+    outline-offset: 3px;
 }
